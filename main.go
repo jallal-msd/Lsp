@@ -45,7 +45,7 @@ func handleMessage(logger *log.Logger, writer io.Writer, method string, contents
 		logger.Printf("Connected to: %s %s",
 			request.Params.ClientInfo.Name,
 			request.Params.ClientInfo.Version)
-		// hey... let's reply!
+		//INFO: hey... let's reply!
 		msg := message.NewInitializeResponse(request.ID)
 		writeResponse(writer, msg)
 
@@ -65,5 +65,5 @@ func getLogger(filename string) *log.Logger {
 		panic("hey, you didnt give me a good file")
 	}
 
-	return log.New(logfile, "[educationalsp]", log.Ldate|log.Ltime|log.Lshortfile)
+	return log.New(logfile, "[lsp]", log.Ldate|log.Ltime|log.Lshortfile)
 }

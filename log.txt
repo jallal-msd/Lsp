@@ -1,7 +1,6 @@
-[educationalsp]2024/10/13 22:38:13 main.go:16: Hey, I started!
-[educationalsp]2024/10/13 22:38:13 main.go:36: Received msg with method: initialize
-[educationalsp]2024/10/13 22:38:13 main.go:45: Connected to: Neovim 0.10.1+g7e194f0d0
-[educationalsp]2024/10/13 22:38:13 main.go:52: Sent the reply
-[educationalsp]2024/10/13 22:38:13 main.go:36: Received msg with method: initialized
-[educationalsp]2024/10/13 23:47:04 main.go:36: Received msg with method: shutdown
-ent/didOpen
+[educationalsp]2024/10/13 23:59:49 main.go:16: Hey, I started!
+[educationalsp]2024/10/13 23:59:49 main.go:36: Received msg with method: initialize
+[educationalsp]2024/10/13 23:59:49 main.go:45: Connected to: Neovim 0.10.1+g7e194f0d0
+[educationalsp]2024/10/13 23:59:49 main.go:52: Sent the reply
+[educationalsp]2024/10/13 23:59:49 main.go:36: Received msg with method: initialized
+[educationalsp]2024/10/14 00:00:46 main.go:36: Received msg with method: shutdown
