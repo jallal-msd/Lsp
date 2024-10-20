@@ -27,7 +27,6 @@ func main() {
 			logger.Printf("Got an error: %s", err)
 			continue
 		}
-
 		handleMessage(logger, writer, method, contents)
 	}
 }
@@ -50,6 +49,23 @@ func handleMessage(logger *log.Logger, writer io.Writer, method string, contents
 		writeResponse(writer, msg)
 
 		logger.Print("Sent the reply")
+	case "textDocument/didOpen":
+		var request message.DidOpenTextDocumentNotification
+		if err := json.Unmarshal(contents, &request); err != nil {
+			logger.Printf("Hey, we couldn't parse this: %s", err)
+		}
+		logger.Printf("Connected to: %s %d",
+			request.Params.TextDocument.Uri,
+			request.Params.TextDocument.Version)
+
+	case "textDocument/didChange":
+		var request message.DidChangeTextDocumentNotification
+		if err := json.Unmarshal(contents, &request); err != nil {
+			logger.Printf("Hey, we couldn't parse this: %s", err)
+		}
+		logger.Printf("Change has happend : %d",
+			request.Params.TextDocument.Version)
+
 	}
 }
 

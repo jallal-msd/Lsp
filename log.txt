@@ -1,6 +1,25 @@
-[educationalsp]2024/10/13 23:59:49 main.go:16: Hey, I started!
-[educationalsp]2024/10/13 23:59:49 main.go:36: Received msg with method: initialize
-[educationalsp]2024/10/13 23:59:49 main.go:45: Connected to: Neovim 0.10.1+g7e194f0d0
-[educationalsp]2024/10/13 23:59:49 main.go:52: Sent the reply
-[educationalsp]2024/10/13 23:59:49 main.go:36: Received msg with method: initialized
-[educationalsp]2024/10/14 00:00:46 main.go:36: Received msg with method: shutdown
+[lsp]2024/10/20 21:06:07 main.go:16: Hey, I started!
+[lsp]2024/10/20 21:06:07 main.go:35: Received msg with method: initialize
+[lsp]2024/10/20 21:06:07 main.go:44: Connected to: Neovim 0.10.1+g7e194f0d0
+[lsp]2024/10/20 21:06:07 main.go:51: Sent the reply
+[lsp]2024/10/20 21:06:07 main.go:35: Received msg with method: initialized
+[lsp]2024/10/20 21:06:07 main.go:35: Received msg [educationalsp]2024/10/20 21:06:43 main.go:36: Received msg with method: shutdown
+o: file:///home/jalal/Downloads/go/README.md 0
+[lsp]2024/10/20 21:06:09 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:09 main.go:66: Change has happend : 4
+[lsp]2024/10/20 21:06:09 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:09 main.go:66: Change has happend : 6
+[lsp]2024/10/20 21:06:10 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:10 main.go:66: Change has happend : 7
+[lsp]2024/10/20 21:06:10 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:10 main.go:66: Change has happend : 8
+[lsp]2024/10/20 21:06:11 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:11 main.go:66: Change has happend : 9
+[lsp]2024/10/20 21:06:11 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:11 main.go:66: Change has happend : 10
+[lsp]2024/10/20 21:06:11 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:11 main.go:66: Change has happend : 11
+[lsp]2024/10/20 21:06:12 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:12 main.go:66: Change has happend : 12
+[lsp]2024/10/20 21:06:12 main.go:35: Received msg with method: textDocument/didChange
+[lsp]2024/10/20 21:06:12 main.go:66: Change has happend : 13
